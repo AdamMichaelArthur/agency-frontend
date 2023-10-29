@@ -1,3 +1,80 @@
+.specialization-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.specialization-section h2,
+.specialization-section h3 {
+  font-weight: bold;
+}
+
+.specialization-section p.lead {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
+
+.specialization-section .row {
+  margin-top: 30px;
+}
+
+.specialization-section .col-md-4 {
+  padding: 15px;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.specialization-section .col-md-4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.specialization-section .text-primary {
+  color: #007bff !important;
+}
+
+.pricing-plan {
+  background: #f9f9f9;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.pricing-plan:hover {
+  transform: translateY(-5px);
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.pricing-price {
+  font-size: 2rem;
+  color: #007bff;
+  font-weight: 700;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
+
+.pricing-features li {
+  margin-bottom: 10px;
+}
+
+.pricing-button {
+  margin-top: 20px;
+}
+
+.pricing-section {
+  padding: 50px 0;
+}
+
+
 .home-card {
   border-radius: 20px;
 }
@@ -49,14 +126,13 @@ flex-direction: column;
 
 .frame-2 {
   background-color: #333;
+  min-height: 100vh; /* Adjust this value if you have a fixed header */
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   text-align: center;
-    font-family: 'Arial', sans-serif; /* Adjust to your preferred font */
-    padding: 20px;
-    text-align: center;
-
+  flex-direction: column;
+  padding:35px;
 
 }
 
@@ -65,6 +141,7 @@ flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding-top: 25px;
+  padding:35px;
 
 }
 

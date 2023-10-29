@@ -9,13 +9,13 @@ const ContactIcons = () => {
   return (
     <div className="d-flex justify-content-center d-md-none">
       <div className="contact-icons">
-        <a href="https://wa.me/1234567890" className="btn btn-success btn-icon mx-1">
+        <a href="https://wa.me/16197986821" className="btn btn-success btn-icon mx-1">
           <FontAwesomeIcon icon={faWhatsapp} />
         </a>
-        <a href="sms:1234567890" className="btn btn-primary btn-icon mx-1">
+        <a href="sms:16197986821" className="btn btn-primary btn-icon mx-1">
           <FontAwesomeIcon icon={faCommentAlt} />
         </a>
-        <a href="tel:1234567890" className="btn btn-danger btn-icon mx-1">
+        <a href="tel:16197986821" className="btn btn-danger btn-icon mx-1">
           <FontAwesomeIcon icon={faPhoneAlt} />
         </a>
       </div>

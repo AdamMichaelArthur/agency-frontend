@@ -1,0 +1,42 @@
+.hammer-icon {
+  font-size: 1.5rem;
+  color: #f96332; /* Construction-like Orange */
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333; /* Dark Grey Color */
+  padding-left: 25px;
+}
+
+.navbar-brand span {
+  background-image: linear-gradient(45deg, #f96332, #f9c032);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline;
+}
+
+
+
+@keyframes rainbow_animation {
+  0%   { background-position: 100% 0; }
+  100% { background-position: 0 100%; }
+}
+
+
+.logo-hammer {
+  font-size: 1.5rem;
+  color: #d4a017; /* Gold color for the hammer, reminiscent of construction */
+  padding-left: 25px;
+}
+
+.logo-text {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #333333; /* Dark gray for the text */
+}
