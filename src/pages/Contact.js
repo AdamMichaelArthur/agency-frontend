@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <h1>Contact</h1>
-      <p>This is the home page of our website.</p>
+      <p>This is a deploy test.</p>
     </div>
   );
 };
