@@ -32,28 +32,40 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 100vw;
-  margin-left: -15px; /* Adjust these based on your Bootstrap gutter sizes */
-  margin-right: -15px;
+  flex-direction: column;
 }
 
 .frame-1 {
-  background-image: url('../../public/images/mobile-bk.webp');
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
+  min-height: calc(100vh - 158px);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   text-align: center;
+    font-family: 'Arial', sans-serif; /* Adjust to your preferred font */
+    padding: 20px;
+    text-align: center;
+flex-direction: column;
 }
 
 .frame-2 {
-  background-color: #d4edda;
+  background-color: #333;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+    font-family: 'Arial', sans-serif; /* Adjust to your preferred font */
+    padding: 20px;
+    text-align: center;
+
+
 }
 
 .frame-3 {
   background-color: #cce5ff;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 25px;
+
 }
 
 .cta-button {
@@ -66,12 +78,6 @@
     margin-bottom: 20px;
 }
 
-.frame-1 {
-    font-family: 'Arial', sans-serif; /* Adjust to your preferred font */
-    background: #F5F5F5; /* Placeholder color. Adjust to your preference */
-    padding: 20px;
-    text-align: center;
-}
 
 .header {
     display: flex;
@@ -175,7 +181,6 @@ h1.fs-h1 {
   line-height: 40px;
   margin: 0;
   text-align: center;
-
 }
 
 
@@ -190,3 +195,85 @@ h1.fs-h1 br {
   text-align: center;
 }
 
+p.home-hero-paragraph.paid-ads.new {
+  box-sizing: border-box;
+  color: #000;
+  font-family: Roboto,sans-serif;
+  font-size: 23px;
+  font-stretch: 100%;
+  line-height: 32px;
+  margin-bottom: 40px;
+  margin-right: 0;
+  margin-top: 0;
+  max-width: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+  .home-hero-paragraph {
+    font-weight: 400;
+  }
+  .home-hero-paragraph.paid-ads.new {
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+
+.rounded-custom {
+  border-radius: 1rem; /* Adjust as needed */
+}
+
+
+h2.fs-h2 {
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Geomanist bold",sans-serif;
+  font-size: 48px;
+  font-stretch: 100%;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  h2.fs-h2 {
+    line-height: 1.1;
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h2.fs-h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  h2.fs-h2 {
+    font-size: 32px;
+  }
+}
+
+.white-text {
+  color: white;
+}
+
+.dark-text {
+  color: darkblue;
+  text-align: left;
+}
+
+.card-body {
+  spacing: 15px;
+  padding: 15px;
+  text-align: left;
+}
+
+.card {
+    spacing: 15px;
+  padding: 15px;
+}

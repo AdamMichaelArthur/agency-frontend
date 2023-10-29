@@ -8,6 +8,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'font-awesome/css/font-awesome.min.css';
 
 function App() {
   return (
