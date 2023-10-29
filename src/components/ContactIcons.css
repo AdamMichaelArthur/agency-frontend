@@ -1,0 +1,12 @@
+.contact-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.btn {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

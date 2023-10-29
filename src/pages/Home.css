@@ -1,0 +1,192 @@
+.home-card {
+  border-radius: 20px;
+}
+
+.percentage-text {
+  font-size: 1.0 em;
+}
+
+.red-text {
+  color: red;
+}
+
+.yellow-text {
+  color: yellow;
+}
+
+.contact-buttons a {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-icons {
+   position: 'absolute'; 
+   top: '100%';
+  width: '100%'; 
+  zIndex: 10;
+}
+
+.frame {
+  min-height: 100vh; /* Adjust this value if you have a fixed header */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  margin-left: -15px; /* Adjust these based on your Bootstrap gutter sizes */
+  margin-right: -15px;
+}
+
+.frame-1 {
+  background-image: url('../../public/images/mobile-bk.webp');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.frame-2 {
+  background-color: #d4edda;
+}
+
+.frame-3 {
+  background-color: #cce5ff;
+}
+
+.cta-button {
+    background: #8D67EA;
+    color: #FFF;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.frame-1 {
+    font-family: 'Arial', sans-serif; /* Adjust to your preferred font */
+    background: #F5F5F5; /* Placeholder color. Adjust to your preference */
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-icon {
+    width: 36px;
+    height: 36px;
+    background: #EEE; /* Placeholder for the menu icon */
+}
+
+.main-content {
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.purchase-button {
+    background: #FDC134;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.footer {
+    padding-top: 40px;
+}
+
+.see-more-button {
+    background: none;
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.frame-1-content {
+    background-color: #4B0082; /* Purple background */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.frame-1-content h1 {
+    font-size: 30px; /* Adjust according to your need */
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.frame-1-content h2 {
+    font-size: 25px; /* Adjust according to your need */
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.frame-1-content p {
+    font-size: 20px; /* Adjust according to your need */
+    font-weight: regular;
+    color: #ffffff;
+    text-align: center;
+}
+
+body {
+  
+  /* This is just a helper in case the element has a transparent background or white colors. */
+}
+
+h1.fs-h1 {
+  box-sizing: border-box;
+  color: #4001ff;
+  font-family: "Geomanist bold",sans-serif;
+  font-size: 36px;
+  font-stretch: 100%;
+  font-weight: 700;
+  line-height: 40px;
+  margin: 0;
+  text-align: center;
+
+}
+
+
+h1.fs-h1 br {
+  box-sizing: border-box;
+  color: #4001ff;
+  font-family: "Geomanist bold",sans-serif;
+  font-size: 36px;
+  font-stretch: 100%;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+}
+

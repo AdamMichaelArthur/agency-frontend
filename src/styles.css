@@ -1,0 +1,40 @@
+.navbar-padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    justify-content: center;
+  }
+  .navbar-nav .nav-item {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-nav .nav-link {
+    text-align: center;
+  }
+}
+
+.rounded-custom {
+  border-radius: 1rem; /* Adjust as needed */
+}
+
+.shadow-custom {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.contact-btn {
+  flex-grow: 1;
+  text-align: center;
+  min-width: 100px; /* or whatever value suits your design */
+}
+
+.frame-1-bg {
+  background-size: cover;
+  background-position: center;
+}
